@@ -177,3 +177,24 @@ o-vs-r-split/
 ../.DS_Store
 ../.idea
 
+# Project-local artifacts (non-notebook outputs and local tooling files)
+.DS_Store
+.idea/
+
+# Large model binaries and archives
+*.pth
+*.keras
+*.tar
+
+# Course-specific generated data/assets to keep out of VCS
+Course 4 (Intro PyTorch)/img/
+Course 4 (Intro PyTorch)/resources/
+Course 5 (Deep Learning with PyTorch)/data/
+Course 5 (Deep Learning with PyTorch)/DeepNeuralNetworks_5-4-1
+Course 6 (AI DL Capstone)/dataSAT/
+Course 6 (AI DL Capstone)/images_dataSAT
+Course 6 (AI DL Capstone)/images_dataSAT.tar
+Course 8 (Gen AI FMs for NLP)/.vector_cache/
+Course 8 (Gen AI FMs for NLP)/my_model.pth
+Course 8 (Gen AI FMs for NLP)/utils.py
+Course 12 (Fund of AI Agents - RAG & LangChain)/companyPolicies.txt
